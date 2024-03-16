@@ -12,4 +12,4 @@ Projeto com relógio mostrando a hora atual, praticando datas e temporizadores n
   - CSS
   - JAVASCRIPT
 
-<p>🔗 Link para acessar o <a href="">site</a></p>
+<p>🔗 Link para acessar o <a href="https://joaovitor2004.github.io/projeto-relogio/">site</a></p>
