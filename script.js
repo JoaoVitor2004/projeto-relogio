@@ -1,5 +1,5 @@
+const resultado = document.querySelector('#relogio')
 const relogio = () => {
-    const resultado = document.querySelector('#relogio')
     const data = new Date()
     const horas = String(data.getHours()).padStart(2,'0')
     const minutos = String(data.getMinutes()).padStart(2,'0')
@@ -26,3 +26,18 @@ promesa.then((resolvido) => {
 }).finally((final) => {
     console.log('Fim da aplicação')
 })
+
+const texto = resultado
+function res(){
+    const char = texto.split('').reverse()
+    const intervalo = setInterval(() => {
+        if(!char.length) {
+            return clearInterval(intervalo)
+        }
+
+        const proximo = char.pop()
+        texto += proximo
+
+    }, 200)
+}
+res()
