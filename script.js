@@ -26,3 +26,4 @@ promesa.then((resolvido) => {
 }).finally((final) => {
     console.log('Fim da aplicação')
 })
+
