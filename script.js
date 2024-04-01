@@ -26,21 +26,3 @@ promesa.then((resolvido) => {
 }).finally((final) => {
     console.log('Fim da aplicação')
 })
-
-<<<<<<< HEAD
-=======
-const texto = resultado
-function res(){
-    const char = texto.split('').reverse()
-    const intervalo = setInterval(() => {
-        if(!char.length) {
-            return clearInterval(intervalo)
-        }
-
-        const proximo = char.pop()
-        texto += proximo
-
-    }, 200)
-}
-res()
->>>>>>> 95452456b11278e9b2a9a104d1d3b29a01c6d584
