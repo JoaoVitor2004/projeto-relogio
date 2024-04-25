@@ -1,14 +1,14 @@
 const resultado = document.querySelector('#relogio')
 const relogio = () => {
     const data = new Date()
-    const horas = String(data.getHours()).padStart(2,'0')
-    const minutos = String(data.getMinutes()).padStart(2,'0')
-    const segundos = String(data.getSeconds()).padStart(2,'0')
+    const horas = String(data.getHours()).padStart(2, '0')
+    const minutos = String(data.getMinutes()).padStart(2, '0')
+    const segundos = String(data.getSeconds()).padStart(2, '0')
     resultado.innerHTML = `${horas}:${minutos}:${segundos}`
 }
 const intervalo = setInterval(relogio, 1000)
 
-const promesa = new Promise((resolve,reject) => {
+const promesa = new Promise((resolve, reject) => {
     setTimeout(() => {
         let soma = 5 + 5
         if (soma === 10) {
