@@ -1,7 +1,7 @@
 body {
     background-size: 400% 100%;
     background-image: linear-gradient(to right, white, orange);
-    animation: alternar 4s linear alternate infinite;
+    animation: slide 5s linear alternate infinite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,6 +10,16 @@ body {
     height: 80vh;
     overflow: hidden;
     text-align: center;
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 100%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
 }
 
 main {
