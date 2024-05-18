@@ -12,15 +12,6 @@ body {
     text-align: center;
 }
 
-@keyframes alternar {
-    0% {
-        background-position: 400%;
-    }
-    100% {
-        background-position: 100%;
-    }
-}
-
 main {
     display: flex;
     flex-wrap: wrap;
