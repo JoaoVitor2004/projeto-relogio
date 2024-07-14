@@ -1,6 +1,4 @@
-![capa - Relogio digital](https://github.com/JoaoVitor2004/projeto-relogio/assets/143558833/cddd1a82-18bb-428a-872a-912ff4542a7f)
-
-# Relogio digital
+# Relogio digital![capa - relogio digital](https://github.com/user-attachments/assets/79bbd758-9595-4352-a079-6417ec67c0c7)
 
 ## 🎯 Introdução
 
