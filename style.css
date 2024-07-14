@@ -1,7 +1,4 @@
 body {
-    background-size: 400% 100%;
-    background-image: linear-gradient(to right, white, orange);
-    animation: slide 5s linear alternate infinite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,36 +7,48 @@ body {
     height: 80vh;
     overflow: hidden;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@keyframes slide {
-    0% {
-        background-position-x: 100%;
-    }
-
-    100% {
-        background-position: 400%;
-    }
-}
-
-main {
+.horario {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     gap: 30px;
-    font-size: 110px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    color: #333333;
+    font-size: 150px;
+    margin-bottom: 35px;
 }
 
-@media (width < 590px) {
+.data {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 45px;
+}
+
+@media (width < 750px) {
 
     body {
+        flex-direction: column-reverse;
         height: 90vh;
     }
 
-    main {
+    .horario {
         max-width: 200px;
+        font-size: 90px;
+    }
+}
+
+@media (width < 590px) {
+    .data {
+        font-size: 25px;
     }
 }
